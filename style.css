@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Smooch+Sans:wght@100..900&display=swap');
+
+.root{
+    --main-color: white; 
+    --second-color: black;
+    --shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    --smooch: "Smooch Sans", serif;
+}
+
+html{
+    font-family: "Oswald", serif;
+}
+
+
+
+
+/*************************Header**************************/
+
+header .hcon  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: var(--shadow);
+}
+
+
+header .hcon ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-left: 0;
+}
+
+header .hcon ul li {
+    list-style: none;
+    padding-left: 5px;
+    font-family: "Smooch Sans", serif;
+    color: black;
+    font-weight: 600;
+}
+header .hcon ul li:hover {
+    transform: scale(1.02);
+    color: var(--main-color);
+}
+
+
+header .hcon ul a {
+    text-decoration: none;
+}
+
+
+.video-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    z-index: -1;
+}
+
+.video-background video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5); /* Ajustez la valeur alpha pour plus ou moins de transparence */
+    z-index: 0;
+}
+
+.contain {
+    color: #f8f8f8;
+    background-color: rgba(230, 218, 198, 0.7);
+    border: 7px solid #fff;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    z-index: 1;
+}
+
+.title-container {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    animation: counterAnimation 1s ease-in-out;
+}
+
+.proj .procon h1 {
+    text-align: center;
+}
+
+
+
+
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    .contain {
+        width: 90%;
+        padding: 30px;
+    }
+
+    .digit {
+        font-size: 6rem;
+    }
+}
