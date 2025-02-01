@@ -115,6 +115,7 @@ header .hcon ul a {
     flex-wrap: wrap;
     max-width: 1300px;
     margin: auto;
+    gap: 10px;
 }
 .proj .procon .p-sec a{
     text-decoration: none;
@@ -192,7 +193,9 @@ header .hcon ul a {
     height: 720px;
 }
 
-
+.about .a-left h1,p{
+    color: var(--main-color);
+}
 
 
 
