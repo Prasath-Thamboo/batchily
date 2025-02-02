@@ -222,6 +222,21 @@ header .hcon ul a {
     top: 300px;
 }
 
+.about .a-right p:nth-child(4) {
+    width: 100px;
+    top : 0
+}
+
+.about .a-right p:nth-child(4) i {
+    transform: scale(2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+
 
 .about .a-right:hover p {
     opacity: 1;
