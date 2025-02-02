@@ -15,6 +15,7 @@ html{
 *{
     box-sizing: border-box;
     padding: 0;
+    scroll-behavior: smooth;
 }
 
 
@@ -118,7 +119,7 @@ header .hcon ul a {
 .proj .procon .p-sec {
     display: flex;
     flex-wrap: wrap;
-    max-width: 1300px;
+    max-width: 1600px;
     margin: auto;
     gap: 10px;
 }
@@ -129,7 +130,7 @@ header .hcon ul a {
 
 
 .proj .procon .p-sec .p-cont {
-    height: 250px;
+    height: 300px;
     border-radius: 10px;
     text-align: center;
     flex: 1 1 200px; /* Flex-grow, flex-shrink, flex-basis */
@@ -213,8 +214,14 @@ header .hcon ul a {
 
 .about .a-right p:nth-child(2) {
     left: 155px;
-    top: 100px;
+    top: 120px;
 }
+
+.about .a-right p:nth-child(3) {
+    left: 230px;
+    top: 300px;
+}
+
 
 .about .a-right:hover p {
     opacity: 1;
@@ -223,7 +230,16 @@ header .hcon ul a {
 .about .a-right:hover p:nth-child(2) {
     opacity: 1;
     background-color: red;
-    transition: all ease .9s;
+    transform: scale(1.2);
+    transition: all ease .1s;
+
+}
+
+.about .a-right:hover p:nth-child(3) {
+    opacity: 1;
+    background-color: var(--main-color);
+    transition: all ease 1.5s;
+    color: var(--second-color);
 
 }
 
@@ -311,7 +327,29 @@ footer ul{
 
 
 
-/*responsive*/
+
+/*******************************************Mentions**********************************************/
+
+
+.mention {
+    margin: 75px 0 100px 0;
+}
+
+.mention .max-width{
+    max-width: 1200px;
+    margin: auto;
+}
+
+.mention h1{
+    color: var(--main-color);
+}
+
+
+/*******************************************responsive**********************************************/
+
+
+
+
 @media(max-width: 767px){
     .footer-col{
       width: 50%;
