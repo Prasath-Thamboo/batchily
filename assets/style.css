@@ -71,6 +71,7 @@ header .hcon ul li:hover {
 
 header .hcon ul a {
     text-decoration: none;
+    margin-right: 10px;
 }
 
 .hero{
@@ -125,7 +126,9 @@ header .hcon ul a {
 /******************************************Proj***************************************************/
 
 
-
+.proj{
+    margin-bottom: 50px;
+}
 
 .proj .procon h1 {
     text-align: center;
@@ -206,7 +209,7 @@ header .hcon ul a {
     max-width: 1200px;
     display: flex;
     padding: 50px;
-    margin-top: 100px;
+    margin-top: 70px;
     align-items: center;
     flex-wrap: wrap;
 }
@@ -425,7 +428,7 @@ footer ul{
     .proj .procon .p-sec a {
         width: 100%;
       }
-      .proj .procon .p-sec .p-cont {
+    .proj .procon .p-sec .p-cont {
         width: 100%;
 
       }
