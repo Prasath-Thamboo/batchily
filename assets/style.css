@@ -69,10 +69,10 @@ header .hcon ul li:hover {
 }
 
 
-header .hcon ul a {
+header .hcon a {
     text-decoration: none;
-    margin-right: 10px;
 }
+
 
 .hero{
     height: 750px;
@@ -401,23 +401,37 @@ footer ul{
 @media(max-width: 900px){
     .about{
         padding: 30px;
+        margin-top: 0;
     }
 
     .about .a-left {
         width: 100%;
-        padding: 30px;
+        padding: 0;
+        margin-bottom: 10px;
+
     }
 
     .about .a-right{
         width: 100%;
     }
+
+    .about .a-right p {
+        width: 100%;
+    }
+
+    .about .a-right p:nth-child(1) {
+        left: 5px;
+        width: 200px;
+
+    }
+    
     .about .a-right p:nth-child(2) {
-        left: 15px;
+        left: 10px;
         top: 120px;
     }
     
     .about .a-right p:nth-child(3) {
-        left: 30px;
+        left: 10px;
         top: 300px;
     }
     
@@ -431,6 +445,9 @@ footer ul{
     .proj .procon .p-sec .p-cont {
         width: 100%;
 
+      }
+      .proj{
+        margin-bottom: 0;
       }
     
   }
