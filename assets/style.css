@@ -173,6 +173,8 @@ header .hcon a {
     align-items: center;
     flex-direction: column;
     height: 100%;
+    border-radius: 10px;
+
 }
 
 .proj .procon .p-sec .p-cont .p-cont-text h2{
@@ -393,6 +395,28 @@ footer ul{
     color: var(--main-color);
 }
 
+/************************************************About*************************************************/
+
+
+
+.props{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    max-width: 800px;
+    margin: auto;
+}
+
+.props img {
+    max-width: 250px;
+}
+
+.props .prop{
+    margin: 75px;
+    width: 100%;
+    display: block;
+}
+
 
 /*******************************************responsive**********************************************/
 
@@ -449,6 +473,9 @@ footer ul{
       .proj{
         margin-bottom: 0;
       }
+      section{
+        flex-wrap: wrap;
+    }
     
   }
 
