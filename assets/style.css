@@ -436,6 +436,72 @@ footer ul{
     display: block;
 }
 
+/************************************************Projet*************************************************/
+
+
+
+.Shadow{
+    max-width: 1015px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+
+}
+
+.Shadow > div > a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    height: 300px;
+}
+
+
+.Shadow > div > a > img{
+    object-fit: cover;
+    border-radius: 5px;
+    height:100% ;
+    width: 100%;
+}
+
+.Shadow div a .p-cont-text{
+    transform: translateY(5px);
+    opacity: 0;
+    transition: all ease .1s;
+    background: rgba(0,0,0,.3);
+    backdrop-filter: blur(5px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+}
+
+.Shadow div a:hover .p-cont-text{
+    transform: translateY(0);
+    opacity: 1;
+}
+
+
+.grid{
+    position: relative;
+    column-count: 4;
+    max-width: 1200px;
+    margin: auto;
+}
+.grid-items{
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+.grid-items img {
+    width: 100%;
+}
+
+
+
 
 /*******************************************responsive**********************************************/
 
@@ -497,6 +563,9 @@ footer ul{
 
     section{
         flex-wrap: wrap;
+    }
+    .grid{
+        column-count:1
     }
   }
 
