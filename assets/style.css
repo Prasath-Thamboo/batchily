@@ -188,18 +188,34 @@ header .hcon a {
 }
 
 .proj .procon .p-sec .ab1{
-    background-image: url("/assets/dance2.png");
+    background-image: url("/assets/hiphop.jpg");
     background-position: center;
 }
 .proj .procon .p-sec .ab2{
-    background-image: url("/assets/dance.png");
+    background-image: url("/assets/hiphop\ \(2\).jpg");
     background-position: center;
 }
 .proj .procon .p-sec .ab3{
-    background-image: url("/assets/dance2.png");  
+    background-image: url("/assets/hiphop\ \(3\).jpg");  
+    background-position: center;
+}
+
+.proj .procon .p-sec .ab4{
+    background-image: url("/assets/forest-8592902_1920\ \(1\).jpg");
+    background-position: center;
+}
+
+.proj .procon .p-sec .ab5{
+    background-image: url("/assets/canola-8638923_1920.jpg");
+    background-position: center;
+}
+
+.proj .procon .p-sec .ab6 {
+    background-image: url("/assets/green-tree-python-9295182_1920.jpg");  
     background-position: center;
 
 }
+
 
 
 
@@ -224,7 +240,7 @@ header .hcon a {
 
 .about .a-right {
     width: 60%;
-    background-image: url("/assets/dance2.png");
+    background-image: url("/assets/hiphop.png");
     background-position: center;
     height: 720px;
     border-radius: 20px;
